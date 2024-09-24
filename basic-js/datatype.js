@@ -32,14 +32,23 @@
 //  console.log(typeof(arr)) //object
 
 
-let saba ={
-    "name" : "saba khan",
-    "place" : "new york",
-    "age" : 20,
-    "salary" : 3534343645
-}
+// let saba ={
+//     "name" : "saba khan",
+//     "place" : "new york",
+//     "age" : 20,
+//     "salary" : 3534343645
+// }
 
-console.log(saba)
-console.log(typeof(saba))
-console.log(saba["20"])
-console.log(saba["salary"]) 
+// console.log(saba)
+// console.log(typeof(saba))
+// console.log(saba["20"])
+// console.log(saba["salary"]) 
+
+function my_schedule(){
+    console.log("we wake up at 6 am")
+    console.log("we go for a moring walk")
+    console.log("we go to clg")
+  }
+  // function calling
+  my_schedule()
+  my_schedule()

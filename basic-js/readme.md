@@ -73,3 +73,30 @@ ex:-
    }
 
    - in the above example we can see that the left hand side element are the keys & the right hand side value are the values so we can tell that object is a key:value pair structure.
+
+   3. Function:-
+   - in function, we repeatedly do the task in function.
+   - function reduce our code complexity and the time & space complexity.
+   - Syntax:-
+       
+          function my_schedule(){
+            console.log("we wake up at 6 am")
+            console.log("we go for a moring walk")
+            console.log("we go to clg")
+          }
+          // function calling
+          my_schedule()
+
+
+Operator in JS:-
+  
+  - operator are the key features to do some task or operate some task.
+  - Ex:- A + B 
+  - in the above example A,B are the operands & "+" is the operator.
+  - There are 5 types of operator are present in JS:-
+
+  1. Airthmetic Operator:- (+,-,*,/) , % (modulus), ** (exponentiation)
+  2. Logical Operator:- logical AND(&&), logical OR (||), logical NOT(!)
+  3. Assignment Operator:- (=,+=, -=, *=, %=,**=)
+  4. Unary Operator:- increment (++), decrement(--)
+  5.Comparision Operator:- (==, !==, ===, etc...)
