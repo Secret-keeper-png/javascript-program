@@ -42,4 +42,4 @@ let saba ={
 console.log(saba)
 console.log(typeof(saba))
 console.log(saba["20"])
-console.log(saba["salary"])
+console.log(saba["salary"]) 
