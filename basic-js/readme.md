@@ -100,3 +100,46 @@ Operator in JS:-
   3. Assignment Operator:- (=,+=, -=, *=, %=,**=)
   4. Unary Operator:- increment (++), decrement(--)
   5.Comparision Operator:- (==, !==, ===, etc...)
+
+  Conditional Statement:-
+  - To implement some condition in the code.
+  - there are 3 types of conditional statement are there-
+  (a) If condition:- 
+  - if condition is true then statement is true.
+  - syntax:
+
+   if(condition)
+   {
+   statement
+   }
+
+  (b) If-else condition:-
+  - if condition is true then statement is true otherwise false.
+  - synatax:-
+
+  if(condtion)
+  {
+  statement
+  } else {
+  statement 
+  }
+
+  (c) if-elif condition:-
+  -its check the condition multiple times, where the condtion is true.
+  - syntax:
+
+  if(condtion)
+  {
+  statement
+  } else if (condtion){
+  statement 
+  }
+  else if (condtion){
+  statement 
+  }
+  else {
+  statement 
+  }
+
+
+ 
