@@ -142,4 +142,50 @@ Operator in JS:-
   }
 
 
- 
+LOOPS in javascript:-
+
+- Loops are used to execute a piece of code aain and again.
+- there there are 5 types of loops present in JS:-
+1. For loop:-
+
+- syntax:-
+    
+         for(initialization; condition; incre/decre){
+          statement
+         }
+
+- example:-
+
+              for (let i = 1; i <=5; i++){
+                console.log("web bocket")
+              }
+
+working/ output:-
+
+a. web bocket
+b. web bocket
+c. web bocket
+d. web bocket
+e. web bocket
+
+2. While loop:-
+
+- syntax:-
+    
+          initialization
+          while (condition){
+            statement
+            inc/ dec
+          }
+
+
+3. Do-while loop:-
+- syntax:-
+
+    do {
+      statement
+      inc/dec
+    } while (condition)
+
+4.For-of loop:-  it iterate on string & array.
+5. For-in loop:-it iterate over the object

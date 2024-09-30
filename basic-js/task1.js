@@ -35,7 +35,7 @@ switch(fruits){
     case "apple":
         console.log("apple is good");
         break;
-    default:
+    default: 
       console.log("all are bad")
 
 }
