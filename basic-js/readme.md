@@ -189,3 +189,35 @@ e. web bocket
 
 4.For-of loop:-  it iterate on string & array.
 5. For-in loop:-it iterate over the object
+
+String in JS:- 
+
+- string is a swquency of character used to represent text.
+- create a string -> let str = "web bocket"
+- we calculate the string length -> str. length property.
+- we calculate the string index -> str[0], str[1] ...etc
+
+String Literals:-
+- its a way to have embedded expression in string.
+- its is denotes by symbol ``.
+
+String Interpolation:-
+
+- to creatr string by doing substitution of placeholder.
+- Ex:- string text ${expression} string text.
+
+String escape symbol :-
+
+- \n -> new line 
+- \t -> tab inside a string
+
+String Method:- (in-build method)
+
+ 1. str.toUppercase() 
+ 2. str.toLowercase() 
+ 3. str.trim()
+ 4. str.slice(start,end)
+ 5. str1.concat(str2)
+ 6. str.replace(searchVal, newVal)
+ 7. str.charAt(idx)                                                                                                               
+ 
