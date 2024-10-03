@@ -31,13 +31,21 @@
 // } while (i <=5 )
 
 
-let str = "web bocket"
-let size =0;
-for (let i of str){
-    console.log("i =", i);
-    size++;
+// let str = "web bocket"
+// let size =0;
+// for (let i of str){
+//     console.log("i =", i);
+//     size++;
+// }
+// console.log("string size = ", size)
+
+let student = {
+    name : "saba",
+    age : 20,
+    CGPA : 7.79,
+    isPass : false
 }
-console.log("string size = ", size)
-
-
-
+   for (let key in student)
+   {
+    console.log("key = ", key, "value = ", student[key])
+   }
