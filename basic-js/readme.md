@@ -219,5 +219,81 @@ String Method:- (in-build method)
  4. str.slice(start,end)
  5. str1.concat(str2)
  6. str.replace(searchVal, newVal)
- 7. str.charAt(idx)                                                                                                               
+ 7. str.charAt(idx)                                                                                                    
+
+Array on JS :-
+
+array is a collection if items.
+ex - let heros = ["iron man", "hulk", "super man", "spyder man"]
+array index starting form "0".
+arr[0], arr[1].. etc...
+looping over an array :-
+
+loop -> iterable
+syntax -> for (let i = 0; i < arr.length; i++){ statement }
+practice question :- 15 min
+
+for a given array with marks of students -> [86,78,45,32,67]. find the average marks of the entire class.
+for a given array with prices of 5 items -> [567,973,390,321,689]. all items have an offer of 10% off of them. change the array to store final price after applying offer.
+array methods on js :-
+
+push - add an element to the end.
+pop - delet from end
+toString - convert array to string
+concat - joins multiple array and return result.
+unshift - add an element to the string
+shift - delet from start
+slice() - return a piece of the array.
+splice() - change original array (add, remove, replace)
+
+
+ function in js:-
+
+ - it is a block of code that performs a specific task, can be invoked (called) whenever needed.
+
+ Ex:---
+
+   console.log("hello world")  --> in that code  log() is a function.
+  "abc" . toUppercase() --> toUppercase() is a function
+  [1,2,3].push(4); --> push() is a function
+
+  Function Defination:-
+
+  function functionName(){
+  // do some task
+  }
+
+  --> function calling:-
+
+  functionName()
  
+--> Parameterized Function:-
+ 
+ function functionName(parameter1 , parameter2){
+  // do some task
+ }
+ functionName (arguement1 , arguement2)
+
+ 
+Arrow Function in JS :---          
+
+- compact way of writing a function.
+
+syntax:- 
+const functionName = (parameter1 , parameter2...) => {
+  // do some task 
+}
+ ex. ->
+ const sum = (a,b) => {
+  return a + b;
+ }
+
+ Ezample  of sum :-
+
+ function sum (a,b){
+  return a + b:
+ }
+
+ const arrowSum = (a,b) => {
+  return a+b;
+ }
