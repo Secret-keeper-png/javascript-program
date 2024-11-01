@@ -1,4 +1,3 @@
-code :- 
 
 // function myFunction(){
 //     console.log("today is a beautiful day");
@@ -54,29 +53,29 @@ code :-
 // }
 // countVowels("javascript")
 
-const printHello = () => {
-    console.log("hello")
-}
+// const printHello = () => {
+//     console.log("hello")
+// }
 
-printHello()
+// printHello()
 
-// create a function using the "function" keyword that takes a string,
-// as an arguments & returns the number of vowels in the string ??
-// (TCS interview question)(arrow function)
+// // create a function using the "function" keyword that takes a string,
+// // as an arguments & returns the number of vowels in the string ??
+// // (TCS interview question)(arrow function)
 
-const countVowel = (str) => {
-    let count = 0;
-    for(const char of str){
-        if(
-            char === "a" ||
-            char === "e" ||
-            char === "i" ||
-            char === "o" ||
-            char === "u" 
-        ){
-            count++;
-        }   
-    }
-    console.log(count);
-}
-countVowels("javascript")
+// const countVowel = (str) => {
+//     let count = 0;
+//     for(const char of str){
+//         if(
+//             char === "a" ||
+//             char === "e" ||
+//             char === "i" ||
+//             char === "o" ||
+//             char === "u" 
+//         ){
+//             count++;
+//         }   
+//     }
+//     console.log(count);
+// }
+// countVowels("javascript")
